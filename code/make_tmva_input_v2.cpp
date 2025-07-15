@@ -169,7 +169,7 @@ void create_tmva_input(const string& sig_file, const string& bkg_file1, const st
                         continue;
                     }
                     
-                    if (abs(pid->at(j)) == 69) {
+                    if (abs(pid->at(j)) == 999) {
                         TLorentzVector p;
                         p.SetPxPyPzE(px->at(j), py->at(j), pz->at(j), E->at(j));
                         jets.push_back(p);
