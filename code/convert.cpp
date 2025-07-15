@@ -129,7 +129,7 @@ int main(int argc, char* argv[]) {
 
         // Fill jets with dummy PID = 69
         for (auto &jet : jets) {
-            out_pid.push_back(69);
+            out_pid.push_back(999);
             out_px.push_back(jet.px());
             out_py.push_back(jet.py());
             out_pz.push_back(jet.pz());
