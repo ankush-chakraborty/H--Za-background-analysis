@@ -126,8 +126,7 @@ int main(int argc, char* argv[]) {
             out_pz.push_back(pho.Pz());
             out_E.push_back(pho.E());
         }
-
-        // Fill jets with dummy PID = 69
+        
         for (auto &jet : jets) {
             out_pid.push_back(999);
             out_px.push_back(jet.px());
